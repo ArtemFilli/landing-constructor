@@ -1,0 +1,10 @@
+{
+  "name": "drupal/text_block",
+  "type": "drupal-module",
+  "description": "This Drupal module provides the ability to add exportable blocks with custom text.",
+  "license": "GPL-2.0-or-later",
+  "support": {
+    "issues": "https://drupal.org/project/issues/text_block",
+    "source": "https://drupal.org/project/text_block"
+  }
+}

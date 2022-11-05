@@ -1,0 +1,24 @@
+global-styling:
+  version: 1.x
+  css:
+    theme:
+      css/reset.min.css: {}
+      css/bootstrap.min.css: {}
+      css/main.min.css: {}
+      css/media.min.css: {}
+      css/constructor.min.css: {}
+      css/magnific-popup.min.css: {}
+      css/correction.css: {}
+global-script:
+  js:
+    js/bootstrap.min.js: {}
+    js/horwheel.min.js: {}
+    js/jquery-ui.js: {}
+    js/header.js: {}
+    js/jquery.magnific-popup.min.js: {}
+    js/gallery.js: {}
+    js/gallery-second.js: {}
+    js/main.js: {}
+    js/constructor.js: {}
+  dependencies:
+    - core/jquery

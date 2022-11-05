@@ -1,0 +1,9 @@
+<section class="articles articles-page">
+  {{ title_prefix }}
+  {% if label %}
+    <h2 class="title-1">{{ label }}</h2>
+  {% endif %}
+  {% block content %}
+      {{ content }}
+  {% endblock %}
+</section>

@@ -1,0 +1,27 @@
+{%
+  set classes = [
+    'row',
+    'sources-blc', 
+    'd-flex',
+    'justify-content-center',
+    'view-' ~ id|clean_class,
+    'view-id-' ~ id,
+    'view-display-id-' ~ display_id,
+    dom_id ? 'js-view-dom-id-' ~ dom_id,
+  ]
+%}
+<section class="articles">
+  <div{{ attributes.addClass(classes) }}>
+    <div id="horizontal_scrolling">
+      <div class="articles-blc row d-flex flex-column">
+        {{ title_prefix }}
+        {% if rows %}
+          {{ rows }}
+        {% elseif empty %}
+          {{ empty }}
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+

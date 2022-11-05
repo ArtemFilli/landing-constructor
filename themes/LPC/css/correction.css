@@ -1,0 +1,168 @@
+/* system start */
+.contextual{
+    z-index: 50 !important;
+    top: 0;
+}
+
+header nav .contextual{
+    top: 125px;
+    right: 10px;
+}
+
+.toolbar-icon-9 header{
+    position: relative;
+}
+
+.toolbar-icon-9 header .burger{
+    position: absolute;
+    top: 10%;
+}
+
+.block .content{
+    margin-top: 0;
+}
+
+.node__content{
+    margin: 0;
+    padding: 0;
+}
+
+.region-header {
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    padding: 0 !important;
+}
+
+h1{
+    color: inherit !important;
+}
+
+p{
+    margin-bottom: 0;
+}
+
+/* system end */
+
+.text-justify{
+    text-align: justify;
+}
+
+.sub-text{
+    color: rgb(102, 102, 102);
+}
+
+header .site-branding__logo{
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+.offers-desc p{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer nav{
+    position: relative;
+}
+
+
+/* form custom start */
+.elem-form {
+border-radius: 0.4rem !important;
+background: white !important;
+padding: 1rem !important;
+border: 1px solid #34547A !important;
+font-size: 1.5rem;
+width: 100%;
+}
+  
+.elem-form::-webkit-input-placeholder {
+opacity: 0.6 !important;
+}
+
+.elem-form::-moz-placeholder {
+opacity: 0.6 !important;
+}
+
+.elem-form:-ms-input-placeholder {
+opacity: 0.6 !important;
+}
+
+.elem-form::-ms-input-placeholder {
+opacity: 0.6 !important;
+}
+
+.elem-form::placeholder {
+opacity: 0.6 !important;
+}
+
+.elem-form:focus {
+background: whitesmoke !important;
+}
+
+.form-item{
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.form-actions{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding: 0;
+}
+
+/* form custom end */
+
+.articles-blc .contextual{
+    position: static;
+}
+
+.taxonomy-sp{
+    background: #34547A;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    margin-right: 0.5rem;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    display: block;
+}
+
+.taxonomy-blc{
+    margin-bottom: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.taxonomy-sp a{
+    line-height: 1;
+    color: white;
+}
+
+.content-blc-sys{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.articles-page{
+    margin-top: 3rem;
+}
+
+.mt-5rem{
+    margin-top: 5rem !important;
+}
+
+
+.articles-page-one-text li{
+    margin-left: 5rem;
+    list-style: disc;
+}
+
+.articles-page-one-text img{
+    width: 75%;
+    height: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}

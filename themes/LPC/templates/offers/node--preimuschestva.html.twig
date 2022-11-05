@@ -1,0 +1,27 @@
+{%
+  set classes = [
+    'col-md-4',
+    'col-sm-6',
+    'col-12',
+    'd-flex',
+    'offers-blc-one',
+  ]
+%}
+
+  <div{{ attributes.addClass(classes) }}>
+    {{ title_suffix }}
+    <div class="offers-blc-wrapper-1">
+      <div class="offers-blc-wrapper-2">
+        <div class="offers-blc-wrapper-3">
+          {{ content.field_icon }}
+        </div>
+      </div>
+    </div>
+    <div class="offers-blc-desc">
+      <h3 class="title-1">{{ label }}</h3>
+      <p class="sub_text">{{ content.field_opisanie }}</p>
+    </div>
+  </div>
+
+
+

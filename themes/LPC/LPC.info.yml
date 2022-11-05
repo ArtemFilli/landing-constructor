@@ -1,0 +1,28 @@
+type: theme
+base theme: bartik
+core: 8.x
+core_version_requirement: ^8 || ^9
+
+name: LPC
+description: "LPC theme"
+
+libraries:
+  - LPC/global-styling
+  - LPC/global-script
+
+regions:
+  header: Header
+  content: Content
+  intro: Intro
+  offers: Offers
+  main: Main
+  # region for constructor
+  start_screen: Start screen
+  text_block: Text block
+  achievements: Achievements
+  article: Article
+  gallery: Gallery
+  form_block: Form block
+  footer_constructor: Footer for constructor
+  # region for constructor
+  footer_first: "Footer first"

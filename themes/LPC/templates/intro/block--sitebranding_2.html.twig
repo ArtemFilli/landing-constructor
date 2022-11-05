@@ -1,0 +1,15 @@
+{% extends "block.html.twig" %}
+
+{% set attributes = attributes.addClass('site-branding') %}
+{% block content %}
+  {% if site_logo %}
+    <a href="{{ path('<front>') }}" rel="home" class="site-branding__logo">
+      <img src="{{ site_logo }}" alt="{{ 'Home'|t }}" />
+    </a>
+  {% endif %}
+  {% if site_name or site_slogan %}
+      {% if site_name %}
+           <h1 class="title-1 text-left"> {{ site_name }} </h1>
+      {% endif %}
+  {% endif %}
+{% endblock %}

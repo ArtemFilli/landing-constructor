@@ -1,0 +1,41 @@
+{%
+  set classes = [
+    'block',
+    'block-' ~ configuration.provider|clean_class,
+    'block-' ~ plugin_id|clean_class,
+  ]
+%}
+<section class="subscribe_form">
+  <div{{ attributes.addClass(classes) }}>
+    <div class="row d-flex justify-content-center align-items-center">
+      {{ title_prefix }}
+      {{ title_suffix }}
+      {% block content %}
+        <div class="col-md-4 col-12">
+          <div class="subscribe_form-wrap">
+            <div class="subscribe_form-form d-flex flex-column">
+              {% if label %}
+                <h2 class="title-1">{{ label }}</h2>
+              {% endif %}
+              {{ content }}
+            </div>
+          </div>
+        </div>
+        <div class="col-8 subscribe_form-cube">
+          <div class="subscribe_form-cube-container d-flex justify-content-center align-items-center">
+            <div class="cube">
+              <div class="front">
+                <img src="/themes/LPC/logo.svg"  loading="lazy">
+              </div>
+              <div class="back"></div>
+              <div class="top"></div>
+              <div class="bottom"></div>
+              <div class="left"></div>
+              <div class="right"></div>
+            </div>
+          </div>
+        </div>
+      {% endblock %}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,16 @@
+{%
+  set classes = [
+    'col-sm-4',
+    'col-6',
+    'sources-blc-one',
+  ]
+%}
+
+<div {{ attributes.addClass(classes) }}>
+  {{ title_suffix }}
+  <a href="{{ content.field_ssylka_na_resurs }}" target="_blank">
+    <div>
+      {{ content.field_logo }}          
+    </div>
+  </a>
+</div>
